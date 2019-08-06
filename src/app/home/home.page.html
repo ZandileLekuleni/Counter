@@ -1,0 +1,81 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title>
+            Court Counter
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                Team A <br><br> {{Team_A}}
+            </ion-col>
+            <ion-col>
+                Team B <br><br> {{Team_B}}
+            </ion-col>
+        </ion-row>
+
+
+
+        <ion-row>
+            <ion-col>
+                <ion-button (click)="onAddFourA()">-4</ion-button>
+                <ion-button (click)="onMinusFourA()">+4</ion-button>
+                <br>
+                <ion-button (click)="onAddThreeA()">-3</ion-button>
+                <ion-button (click)="onMinusThreeA()">+3</ion-button>
+                <br>
+                <ion-button (click)="onAddTwoA()">-2</ion-button>
+                <ion-button (click)="onMinusTwoA()">+2</ion-button>
+                <br>
+                <ion-button (click)="onAddOneA()">-1</ion-button>
+                <ion-button (click)="onMinusOneA()">+1</ion-button>
+                <br>
+            </ion-col>
+
+
+            <ion-col id="bord">
+                <ion-button (click)="onAddFourB()">-4</ion-button>
+                <ion-button (click)="onMinusFourB()">+4</ion-button>
+                <br>
+                <ion-button (click)="onAddThreeB()">-3</ion-button>
+                <ion-button (click)="onMinusThreeB()">+3</ion-button>
+                <br>
+                <ion-button (click)="onAddTwoB()">-2</ion-button>
+                <ion-button (click)="onMinusTwoB()">+2</ion-button>
+                <br>
+                <ion-button (click)="onAddOneB()">-1</ion-button>
+                <ion-button (click)="onMinusOneB()">+1</ion-button>
+                <br>
+            </ion-col>
+        </ion-row>
+
+
+    </ion-grid>
+
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ 
+    <div class="button">
+        <ion-button  (click)="reset()">RESET</ion-button>
+
+    </div>
+
+</ion-content> 
+            
+
+
+
+        
+      
+
+
+
